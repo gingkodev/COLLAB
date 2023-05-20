@@ -1,7 +1,7 @@
 let colorPicker;
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(windowWidth, windowHeight);
     background(220);
     noStroke();
     colorPicker = createColorPicker(color('red'));
